@@ -1,0 +1,21 @@
+/*
+Standby code with Wemos D1 mini
+Used w/ N-channel MOSFET FQP30N06L
+By Jeremy S. Cook
+*/
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(D6, OUTPUT);
+  pinMode(BUILTIN_LED, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(D6, HIGH);
+  digitalWrite(BUILTIN_LED, LOW);
+  delay(5000);
+  digitalWrite(D6, LOW);
+  delay(500);
+}
