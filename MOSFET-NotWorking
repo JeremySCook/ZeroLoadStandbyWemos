@@ -1,6 +1,7 @@
 /*
 Standby code with Wemos D1 mini
 Used w/ N-channel MOSFET FQP30N06L
+Was not able to get this working correctly, switched to relay control
 By Jeremy S. Cook
 */
 
